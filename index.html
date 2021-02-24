@@ -11,6 +11,11 @@
 </head>
 <body>
    <section class="header-container">
+      <div class="burger">
+         <a href="#" class="menu-btn">
+           <span></span>
+         </a>
+       </div>
       <div class="shadow-menu">
          <nav class="menu-nav">
          <div class="nav-btn">
@@ -42,18 +47,60 @@
           
          </div>
    </section>
-   <section class="about-container">
+   <section class="we-are-container">
       <div class="frame-sign">
-         <img src="./image/Logos-in-frame.png" alt="">
+         <h1>We Are What We Are</h1>
+         <img src="./image/Logos-in-frame.png" alt="quality-sign">
       </div>
    </section>
+   
+      <section class="third-container">
+         <div class="tabs">
+             <div class="tab">
+                 <button class="tablinks" onclick="openTab(event, 'what-is-cbd')" id="defaultOpen"><span>what is cbd?</span></button>
+                 <button class="tablinks" onclick="openTab(event, 'benefits')"><span>benefits</span></button>
+                 <button class="tablinks" onclick="openTab(event, 'our-difference')"><span>our difference</span></button>
+             </div>
+ 
+             <div id="what-is-cbd" class="tabcontent">
+                 <div class="tabcontent-flex">
+                     <div class="tab-text">
+                         <p>what is it and how it works</p>
+                         <p>CBD is short for cannabidiol. It is a phytocannabinoid found in hemp and known for supporting the body and mind in many ways. * Charlotte's Web products have cannabinoids with CBD extract.</p>
+                         <p>Not to be confused with oil from hemp seeds (which doesn't contain cannabinoids), CBD comes from the flowers and leaves of the hemp plant.</p>
+                         <p>Why does CBD work? The human body has a vast network of receptors, the endocannabinoid system.</p>
+                     </div>  
+     
+                     <div class="tab-img">
+                         <img src="./image/small-image.png" alt="meadow">
+                         <img src="./image/small-image-2.png" alt="wheat">
+                     </div>
+ 
+                 </div>
+                 
+             </div>
+               
+             <div id="benefits" class="tabcontent">
+                 <div class="text-empty">
+                     <p>Some text about benefits</p> 
+                 </div>
+             </div>
+         
+               
+             <div id="our-difference" class="tabcontent">
+                 <div class="text-empty">
+                     <p>Some text about our difference</p>
+                 </div>
+             </div>
+         </div>      
+     </section>
+   
 
 
 
 
 
 
-
-   <script src="./cbd.js"></script>
+   <script src="./tab.js"></script>
 </body>
 </html>
